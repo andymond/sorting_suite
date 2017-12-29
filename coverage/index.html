@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-12-29T15:45:18-07:00">2017-12-29T15:45:18-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-12-29T15:49:25-07:00">2017-12-29T15:49:25-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         14.3
+         12.7
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>1</b> files in total.
-    <b>9</b> relevant lines. 
-    <span class="green"><b>9</b> lines covered</span> and
+    <b>11</b> relevant lines. 
+    <span class="green"><b>11</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -53,11 +53,11 @@
       <tr>
         <td class="strong"><a href="#856d6160d63c35941aa1016da42b2899b1b0230b" class="src_link" title="bubble/lib/bubble_sort.rb">bubble/lib/bubble_sort.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>16</td>
-        <td>9</td>
-        <td>9</td>
+        <td>20</td>
+        <td>11</td>
+        <td>11</td>
         <td>0</td>
-        <td>14.3</td>
+        <td>12.7</td>
       </tr>
       
     </tbody>
@@ -81,8 +81,8 @@
     <h3>bubble/lib/bubble_sort.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>9</b> relevant lines. 
-      <span class="green"><b>9</b> lines covered</span> and
+      <b>11</b> relevant lines. 
+      <span class="green"><b>11</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -117,70 +117,94 @@
         <li class="covered" data-hits="10" data-linenumber="5">
           <span class="hits">10</span>
           
-          <code class="ruby">      unsorted_array.each_with_index do |element, index|</code>
+          <code class="ruby">      sorting_criteria(unsorted_array)</code>
         </li>
       
-        <li class="covered" data-hits="52" data-linenumber="6">
-          <span class="hits">52</span>
-          
-          <code class="ruby">        if unsorted_array[index + 1].nil?</code>
-        </li>
-      
-        <li class="covered" data-hits="10" data-linenumber="7">
-          <span class="hits">10</span>
-          
-          <code class="ruby">          element</code>
-        </li>
-      
-        <li class="covered" data-hits="42" data-linenumber="8">
-          <span class="hits">42</span>
-          
-          <code class="ruby">        elsif element &gt; unsorted_array[index + 1]</code>
-        </li>
-      
-        <li class="covered" data-hits="9" data-linenumber="9">
-          <span class="hits">9</span>
-          
-          <code class="ruby">        unsorted_array[index], unsorted_array[index + 1] = unsorted_array[index + 1], unsorted_array[index]</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="10">
-          
-          
-          <code class="ruby">        end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
-          <code class="ruby">      end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="12">
+        <li class="never" data-hits="" data-linenumber="6">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="13">
+        <li class="covered" data-hits="2" data-linenumber="7">
           <span class="hits">2</span>
           
           <code class="ruby">    sorted_array</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="14">
+        <li class="never" data-hits="" data-linenumber="8">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="15">
+        <li class="never" data-hits="" data-linenumber="9">
           
           
           <code class="ruby"></code>
         </li>
       
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def sorting_criteria(unsorted_array)</code>
+        </li>
+      
+        <li class="covered" data-hits="10" data-linenumber="11">
+          <span class="hits">10</span>
+          
+          <code class="ruby">    unsorted_array.each_with_index do |element, index|</code>
+        </li>
+      
+        <li class="covered" data-hits="52" data-linenumber="12">
+          <span class="hits">52</span>
+          
+          <code class="ruby">      if unsorted_array[index + 1].nil?</code>
+        </li>
+      
+        <li class="covered" data-hits="10" data-linenumber="13">
+          <span class="hits">10</span>
+          
+          <code class="ruby">        element</code>
+        </li>
+      
+        <li class="covered" data-hits="42" data-linenumber="14">
+          <span class="hits">42</span>
+          
+          <code class="ruby">      elsif element &gt; unsorted_array[index + 1]</code>
+        </li>
+      
+        <li class="covered" data-hits="9" data-linenumber="15">
+          <span class="hits">9</span>
+          
+          <code class="ruby">      unsorted_array[index], unsorted_array[index + 1] = unsorted_array[index + 1], unsorted_array[index]</code>
+        </li>
+      
         <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
           
           
           <code class="ruby">end</code>
