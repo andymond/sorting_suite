@@ -1,0 +1,25 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/AndrewDymond/turing/1module/projects/sorting_suite/bubble/lib/bubble_sort.rb": [
+        1,
+        null,
+        1,
+        2,
+        10,
+        52,
+        10,
+        42,
+        9,
+        null,
+        null,
+        null,
+        2,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1514587518
+  }
+}
