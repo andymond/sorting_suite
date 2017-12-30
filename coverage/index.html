@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-12-30T14:55:35-07:00">2017-12-30T14:55:35-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-12-30T16:21:49-07:00">2017-12-30T16:21:49-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,7 +25,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         9.2
+         16.9
        </span>
     </span> hits/line)
   </h2>
@@ -57,7 +57,7 @@
         <td>13</td>
         <td>13</td>
         <td>0</td>
-        <td>9.2</td>
+        <td>16.9</td>
       </tr>
       
     </tbody>
@@ -108,8 +108,8 @@
           <code class="ruby">  def sort(unsorted_array)</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="4">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="4" data-linenumber="4">
+          <span class="hits">4</span>
           
           <code class="ruby">    sorted_array = []</code>
         </li>
@@ -120,56 +120,56 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="6">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="4" data-linenumber="6">
+          <span class="hits">4</span>
           
           <code class="ruby">    until unsorted_array.empty?</code>
         </li>
       
-        <li class="covered" data-hits="10" data-linenumber="7">
-          <span class="hits">10</span>
+        <li class="covered" data-hits="19" data-linenumber="7">
+          <span class="hits">19</span>
           
-          <code class="ruby">      sorted_array &lt;&lt; unsorted_array.shift</code>
+          <code class="ruby">      sorted_array.unshift(unsorted_array.shift)</code>
         </li>
       
-        <li class="covered" data-hits="10" data-linenumber="8">
-          <span class="hits">10</span>
+        <li class="covered" data-hits="19" data-linenumber="8">
+          <span class="hits">19</span>
           
           <code class="ruby">        sorted_array.each_with_index do |element, index|</code>
         </li>
       
-        <li class="covered" data-hits="31" data-linenumber="9">
-          <span class="hits">31</span>
+        <li class="covered" data-hits="56" data-linenumber="9">
+          <span class="hits">56</span>
           
           <code class="ruby">          if index == 0</code>
         </li>
       
-        <li class="covered" data-hits="10" data-linenumber="10">
-          <span class="hits">10</span>
+        <li class="covered" data-hits="19" data-linenumber="10">
+          <span class="hits">19</span>
           
           <code class="ruby">            element</code>
         </li>
       
-        <li class="covered" data-hits="21" data-linenumber="11">
-          <span class="hits">21</span>
+        <li class="covered" data-hits="37" data-linenumber="11">
+          <span class="hits">37</span>
           
           <code class="ruby">          elsif element &gt;= sorted_array[index - 1]</code>
         </li>
       
-        <li class="covered" data-hits="12" data-linenumber="12">
-          <span class="hits">12</span>
+        <li class="covered" data-hits="18" data-linenumber="12">
+          <span class="hits">18</span>
           
           <code class="ruby">            element</code>
         </li>
       
-        <li class="covered" data-hits="9" data-linenumber="13">
-          <span class="hits">9</span>
+        <li class="covered" data-hits="19" data-linenumber="13">
+          <span class="hits">19</span>
           
           <code class="ruby">          elsif element &lt; sorted_array[index - 1]</code>
         </li>
       
-        <li class="covered" data-hits="9" data-linenumber="14">
-          <span class="hits">9</span>
+        <li class="covered" data-hits="19" data-linenumber="14">
+          <span class="hits">19</span>
           
           <code class="ruby">              sorted_array[index], sorted_array[index - 1] = sorted_array[index - 1], sorted_array[index]</code>
         </li>
@@ -192,8 +192,8 @@
           <code class="ruby">    end</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="18">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="4" data-linenumber="18">
+          <span class="hits">4</span>
           
           <code class="ruby">    sorted_array</code>
         </li>

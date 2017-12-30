@@ -1,7 +1,7 @@
 class BubbleSort
 
   def sort(unsorted_array)
-    sorted_array = unsorted_array.each do |array|
+    sorted_array = unsorted_array.each do
       sorting_criteria(unsorted_array)
     end
     sorted_array

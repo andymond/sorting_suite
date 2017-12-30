@@ -4,7 +4,7 @@ class InsertionSort
     sorted_array = []
 
     until unsorted_array.empty?
-      sorted_array << unsorted_array.shift
+      sorted_array.unshift(unsorted_array.shift)
         sorted_array.each_with_index do |element, index|
           if index == 0
             element
