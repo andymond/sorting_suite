@@ -1,29 +1,30 @@
 {
   "Unit Tests": {
     "coverage": {
-      "/Users/AndrewDymond/turing/1module/projects/sorting_suite/bubble/lib/bubble_sort.rb": [
+      "/Users/AndrewDymond/turing/1module/projects/sorting_suite/insertion/lib/insertion_sort.rb": [
         1,
         null,
         1,
         2,
-        10,
         null,
         2,
-        null,
-        null,
-        1,
         10,
-        52,
         10,
-        42,
+        31,
+        10,
+        21,
+        12,
+        9,
         9,
         null,
         null,
+        null,
+        2,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1514587765
+    "timestamp": 1514670935
   }
 }
